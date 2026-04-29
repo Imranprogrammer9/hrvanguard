@@ -18,7 +18,7 @@ export function Footer() {
     >
       {/* Logo */}
       <a href="#" aria-label="HR Vanguard home">
-  <img src={logo} alt="HR Vanguard" className="h-14 w-auto object-contain"
+  <img src={logo} alt="HR Vanguard" className="h-24 w-auto object-contain" />
  />
 </a>
 
