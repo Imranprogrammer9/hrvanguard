@@ -47,10 +47,10 @@ export function Navbar() {
         )}
         style={{ backgroundColor: 'var(--brand-navy)' }}
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between h-16">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between h-28">
           {/* Logo */}
 <a href="#" className="flex-shrink-0" aria-label="HR Vanguard home">
-        <img src={logo} alt="HR Vanguard" className="h-14 w-auto object-contain" />
+        <img src={logo} alt="HR Vanguard" className="h-28 w-auto object-contain" />
 </a>
 
 
