@@ -1,6 +1,6 @@
 const footerLinks = [
   { href: '#services', label: 'Services' },
-  { href: '#insights', label: 'Insights' },
+  // { href: '#insights', label: 'Insights' },
   { href: '#contact', label: 'Contact' },
   { href: '#', label: 'Privacy Policy' },
 ]
