@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
-import logo from '@/assets/hr-vanguard-logo.png'
+// import logo from '@/assets/hr-vanguard-logo.png'
 
 const navLinks = [
   { href: '#services', label: 'Services' },
@@ -49,11 +49,12 @@ export function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between h-28">
           {/* Logo */}
-<a href="#" className="flex-shrink-0" aria-label="HR Vanguard home">
+{/* <a href="#" className="flex-shrink-0" aria-label="HR Vanguard home">
         <img src={logo} alt="HR Vanguard" className="h-28 w-auto object-contain" />
+</a> */}
+            <a href="#" className="font-display text-2xl text-white tracking-wide font-semibold flex-shrink-0">
+  HR <span className="text-brand-green">Vanguard</span>
 </a>
-
-
 
           {/* Desktop Links */}
           <ul className="hidden md:flex items-center gap-8 list-none">
