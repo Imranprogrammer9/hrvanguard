@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 const navLinks = [
   { href: '#services', label: 'Services' },
   { href: '#about', label: 'About' },
-  { href: '#insights', label: 'Insights' },
+  // { href: '#insights', label: 'Insights' },
 ]
 
 export function Navbar() {
