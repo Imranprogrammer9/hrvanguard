@@ -1,3 +1,5 @@
+import logo from '@/assets/hr-vanguard-logo.png'
+
 const footerLinks = [
   { href: '#services', label: 'Services' },
   // { href: '#insights', label: 'Insights' },
@@ -15,9 +17,10 @@ export function Footer() {
       }}
     >
       {/* Logo */}
-      <a href="#" className="font-display text-xl text-white font-semibold tracking-wide">
-        HR <span style={{ color: 'var(--brand-green-light)' }}>Vanguard</span>
-      </a>
+      <a href="#" aria-label="HR Vanguard home">
+  <img src={logo} alt="HR Vanguard" className="h-12 w-auto object-contain" />
+</a>
+
 
       {/* Links */}
       <ul className="flex flex-wrap gap-6 list-none">
