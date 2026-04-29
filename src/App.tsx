@@ -16,7 +16,7 @@ function HomePage() {
         <Hero />
         <Services />
         <About />
-        <Insights />
+        {/* <Insights /> */}
         <Contact />
       </main>
       <Footer />
