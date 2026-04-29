@@ -17,11 +17,13 @@ export function Footer() {
       }}
     >
       {/* Logo */}
-      <a href="#" aria-label="HR Vanguard home">
-  <img src={logo} alt="HR Vanguard" className="h-24 w-auto object-contain" />
- />
+<a href="#" aria-label="HR Vanguard home">
+  <img
+    src={logo}
+    alt="HR Vanguard"
+    className="h-24 w-auto object-contain"
+  />
 </a>
-
 
       {/* Links */}
       <ul className="flex flex-wrap gap-6 list-none">
