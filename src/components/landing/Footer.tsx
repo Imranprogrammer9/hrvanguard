@@ -1,4 +1,4 @@
-import logo from '@/assets/hr-vanguard-logo.png'
+// import logo from '@/assets/hr-vanguard-logo.png'
 
 const footerLinks = [
   { href: '#services', label: 'Services' },
@@ -17,13 +17,18 @@ export function Footer() {
       }}
     >
       {/* Logo */}
-<a href="#" aria-label="HR Vanguard home">
+{/* <a href="#" aria-label="HR Vanguard home">
   <img
     src={logo}
     alt="HR Vanguard"
     className="h-24 w-auto object-contain"
   />
+</a> */}
+
+        <a href="#" className="font-display text-xl text-white font-semibold tracking-wide">
+  HR <span style={{ color: 'var(--brand-green-light)' }}>Vanguard</span>
 </a>
+
 
       {/* Links */}
       <ul className="flex flex-wrap gap-6 list-none">
